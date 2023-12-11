@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/rahul/IdeaProjects/AutomationRAATB4x">
+        <classes>
+            <class name="org.example.Oct15.RestAssured.RA001">
+                <methods>
+                    <include name="postRequest"/>
+                </methods>
+            </class>
+            <class name="org.example.Oct15.testNGExample.AllAnnotations">
+                <methods>
+                    <include name="Test1"/>
+                </methods>
+            </class>
+            <class name="org.example.Oct15.testNGExample.testNG001">
+                <methods>
+                    <include name="Test1"/>
+                    <include name="Test2"/>
+                </methods>
+            </class>
+            <class name="org.example.Oct15.testNGExample.testNG002">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="org.example.Oct15.testNGExample.testNG003">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+            <class name="org.example.Oct21.RestAssured.CRUD.POST.RA_POST_BDD_STYLE">
+                <methods>
+                    <include name="postRequest"/>
+                </methods>
+            </class>
+            <class name="org.example.Oct21.RestAssured.CRUD.POST.RA_POST_Non_BDD_STYLE">
+                <methods>
+                    <include name="PostRequest1"/>
+                    <include name="PostRequest2"/>
+                </methods>
+            </class>
+            <class name="org.example.RATestNG">
+                <methods>
+                    <include name="getRequest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

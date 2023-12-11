@@ -1,0 +1,1 @@
+{"uuid":"b6082e8f-2e8a-4b13-af76-a23d5e7814e4","name":"AutomationRAATB4x","children":["fb93ffea-798c-4f77-868d-0fd9c1bce5fc"],"befores":[{"name":"prePostRequestCode","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1698566640590,"stop":1698566641226}],"afters":[],"start":1698566640569,"stop":1698566644591}
